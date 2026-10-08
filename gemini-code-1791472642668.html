@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudeep | AI & ML Portfolio</title>
+    <style>
+        :root { --bg: #0f172a; --card: #1e293b; --text: #f8fafc; --accent: #38bdf8; --muted: #94a3b8; }
+        body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 2rem; line-height: 1.6; }
+        header { max-width: 800px; margin: 0 auto 3rem auto; text-align: center; }
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: var(--accent); }
+        .contact { color: var(--muted); font-size: 0.95rem; }
+        main { max-width: 800px; margin: 0 auto; }
+        .section-title { font-size: 1.5rem; border-bottom: 2px solid var(--card); padding-bottom: 0.5rem; margin-top: 2rem; }
+        .grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin-top: 1rem; }
+        .card { background: var(--card); padding: 1.5rem; border-radius: 8px; border: 1px solid #334155; }
+        .card h3 { margin-top: 0; color: var(--accent); }
+        .tech { font-size: 0.85rem; color: var(--muted); margin-top: 1rem; font-weight: bold; }
+        ul { padding-left: 1.2rem; }
+        li { margin-bottom: 0.4rem; color: #cbd5e1; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sudeep</h1>
+        <p class="contact">B.E. AI & ML Student | BMSIT, Bengaluru</p>
+        <p class="contact">spsudeep14@gmail.com | +91 8310360834</p>
+    </header>
+    <main>
+        <section>
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>DeepVision Guard</h3>
+                    <p>Real-time PPE & Safety Compliance Detector</p>
+                    <ul>
+                        <li>Developed a computer vision safety monitoring system using YOLOv8 and OpenCV.</li>
+                        <li>Automated alert logging to flag safety violations in live video streams.</li>
+                    </ul>
+                    <div class="tech">Tech: Python, PyTorch, OpenCV, YOLOv8, Flask</div>
+                </div>
+                <div class="card">
+                    <h3>MedVerify</h3>
+                    <p>Explainable AI Medical Imaging Diagnostics</p>
+                    <ul>
+                        <li>Built a deep learning classification pipeline for chest X-ray images with Grad-CAM heatmaps.</li>
+                        <li>Trained CNNs using PyTorch applying transfer learning for high accuracy.</li>
+                    </ul>
+                    <div class="tech">Tech: Python, PyTorch, Scikit-learn, Grad-CAM</div>
+                </div>
+                <div class="card">
+                    <h3>InsightStream</h3>
+                    <p>Multilingual News Summarizer & Sentiment Analyzer</p>
+                    <ul>
+                        <li>Created an end-to-end NLP application utilizing Hugging Face Transformers.</li>
+                        <li>Leveraged encoder-decoder models for abstractive text summarization.</li>
+                    </ul>
+                    <div class="tech">Tech: Python, Hugging Face Transformers, Flask</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
